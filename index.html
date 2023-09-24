@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ------------------------------- ICONOS -------------------------------- -->
+    <link rel="stylesheet" href="https://program09.github.io/YORDIALCANTARA/public/css/Icons/css/all.min.css">
+
+    <!-- --------------------------- BOOTSTRAP 5 CSS --------------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ------------------------------- JQUERY -------------------------------- -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- ------------------------------ LIBRERIAS ------------------------------ -->
+
+    <!-- ------------------------------- APP CSS ------------------------------- -->
+    <link rel="stylesheet" href="public/assets/css/main.css">
+
+
+</head>
+
+<body>
+
+    <!-- ------------------------------- HEADER -------------------------------- -->
+
+    <div class="group_header">
+        <header class="header d-flex align-items-center justify-content-between">
+            <div class="header_left d-flex align-items-center">
+                <div class="logo">
+                    <a href="">
+                        <!--Logo grande-->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Samsung_Galaxy_Logo.png" alt="" class="logo_1">
+                        <!--Logo pequeño-->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="" class="logo_2">
+                    </a>
+                </div>
+                <div class="navbar_1">
+                    <ul class="lista_1 lita_hover_1  scrool_1">
+                        <li class="item_1"><a class="link_1">Hombres <i class="fa-thin fa-angle-down"></i></a>
+                            <div class="sub_menu">
+                                <ul class="lista_2 scrool_1 hover_lista2">
+                                    <li class="item_2"><a href="" class="link_2">Casacas</a></li>
+                                    <li class="item_2"><a href="" class="link_2">Pantalones</a></li>
+                                    <li class="item_2"><a href="" class="link_2">Vestidos</a></li>
+                                    <li class="item_2"><a href="" class="link_2">Zapatos</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="item_1"><a class="link_1">Mujeres <i class="fa-thin fa-angle-down"></i></a>
+                            <div class="sub_menu">
+                                <ul class="lista_2 scrool_1 hover_lista2">
+                                    <li class="item_2"><a href="" class="link_2">Casacas</a></li>
+                                    <li class="item_2"><a href="" class="link_2">Pantalones</a></li>
+                                    <li class="item_2"><a href="" class="link_2">Vestidos</a></li>
+                                    <li class="item_2"><a href="" class="link_2">Zapatos</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="item_1"><a class="link_1">Niños <i class="fa-thin fa-angle-down"></i></a>
+                            <div class="sub_menu">
+                                <ul class="lista_2 scrool_1 hover_lista2">
+                                    <li class="item_2"><a href="" class="link_2">Ropa</a></li>
+                                    <li class="item_2"><a href="" class="link_2">Zapatos</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="item_1"><a class="link_1">Tecnología <i class="fa-thin fa-angle-down"></i></a>
+                            <div class="sub_menu">
+                                <ul class="lista_2 scrool_1 hover_lista2">
+                                    <li class="item_2"><a href="" class="link_2">Celulares</a></li>
+                                    <li class="item_2"><a href="" class="link_2">Computadoras</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header_right">
+                <div class="navbar_btns d-flex align-items-center justify-content-between">
+                    <button id="btn_menu"><i class="fa-light fa-bars"></i></button>
+                    <button id="btn_search"><i class="fa-light fa-magnifying-glass"></i>
+                        <div class="sub_btn menu_100">
+                            <div class="cont_2">
+                                <div class="car_header">
+                                    <form action="">
+                                        <input type="text" placeholder="Buscar productos...">
+                                    </form>
+                                </div>
+                                <div class="lista_car scrool_1">
+
+                                    <!-- ------------------------- lista de productos -------------------------- -->
+                                   
+                                    <div class="item_car d-flex align-items-center">
+                                        <div class="car_img">
+                                            <img src="https://incajas.com/wp-content/uploads/2021/08/cajas-de-carton-microcorrugado-para-envio-productos-ropa-incajas-resistentes-001.png" alt="">
+                                        </div>
+                                        <div class="card_info">
+                                            <p class="txt-point"><a href="" >Nombre del producto prueva completa</a></p>
+                                            <p class="txt-point">Hombre / Zapato</p>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="item_car d-flex align-items-center">
+                                        <div class="car_img">
+                                            <img src="https://incajas.com/wp-content/uploads/2021/08/cajas-de-carton-microcorrugado-para-envio-productos-ropa-incajas-resistentes-001.png" alt="">
+                                        </div>
+                                        <div class="card_info">
+                                            <p class="txt-point"><a href="" >Nombre del producto prueva completa</a></p>
+                                            <p class="txt-point">Hombre / Zapato</p>
+                                        </div>
+                                        
+                                    </div>
+                                    <!-- ------------------------- lista de productos -------------------------- -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+                    <button id="btn_car"><i class="fa-sharp fa-light fa-bag-shopping"></i>
+                        <div class="sub_btn menu_100">
+                            <div class="cont_2">
+                                <div class="lista_car scrool_1">
+
+                                    <!-- ------------------------- lista de productos -------------------------- -->  
+                                    <div class="item_car d-flex align-items-center">
+                                        <div class="car_img">
+                                            <img src="https://incajas.com/wp-content/uploads/2021/08/cajas-de-carton-microcorrugado-para-envio-productos-ropa-incajas-resistentes-001.png" alt="">
+                                        </div>
+                                        <div class="card_info">
+                                            <p class="txt-point"><a href="" >Nombre del producto prueva completa</a></p>
+                                            <p>Cantidad: 2</p>
+                                        </div>
+                                        <div class="car_action" ><i id="detele_car" class="fa-light fa-trash"></i></div>
+                                    </div>
+                                    <div class="item_car d-flex align-items-center">
+                                        <div class="car_img">
+                                            <img src="https://incajas.com/wp-content/uploads/2021/08/cajas-de-carton-microcorrugado-para-envio-productos-ropa-incajas-resistentes-001.png" alt="">
+                                        </div>
+                                        <div class="card_info">
+                                            <p class="txt-point"><a href="" >Nombre del producto prueva completa</a></p>
+                                            <p>Cantidad: 2</p>
+                                        </div>
+                                        <div class="car_action" ><i id="detele_car" class="fa-light fa-trash"></i></div>
+                                    </div>
+                                    <!-- ------------------------- lista de productos -------------------------- -->
+
+                                </div>
+                                <div class="footer_cont_2 d-flex align-items-center justify-content-between">
+                                    <div class="details_car">
+                                        <p>Cantidad: 12</p>
+                                        <p>Total: S/. <span>120</span></p>
+                                    </div>
+                                    <a href="">Pedir <i class="fa-light fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+
+                    <button id="btn_login" class="btn_a"><i class="fa-light fa-user"></i><span> Mi cuenta</span>
+                        <div class="sub_btn menu_right">
+                            <div class="cont_1">
+                                <ul class="lista_2 scrool_1 hover_lista2">
+                                    <li class="item_2"><a href="" class="link_2">Login</a></li>
+                                    <li class="item_2"><a href="" class="link_2">Registro</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- ------------------------------- HEADER -------------------------------- -->
+
+
+
+    <!-- --------------------------- BOOTSTRAP 5 JS ---------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <!-- ------------------------------- APP JS -------------------------------- -->
+    <script src="public/assets/js/main.js"></script>
+
+
+    <script>
+        
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
